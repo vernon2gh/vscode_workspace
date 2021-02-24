@@ -5,7 +5,6 @@
 		}
 	],
 	"settings": {
-		"json.maxItemsComputed": 15000,
 		"files.exclude": {
 			"**/.*": true,
 			"**/*.a": true,
@@ -20,6 +19,7 @@
 			"**/*cscope*": true
 		},
 		"C_Cpp.default.compileCommands": "compile_commands.json",
+		"json.maxItemsComputed": 15000,
 		"scope4code.databasePath": "${workspaceRoot}/",
 		"scope4code.engineCommands": {
 			"config_index": {
@@ -39,6 +39,15 @@
 					"find_text": "cscope -q -k -f cscope.out -L4 ${text}"
 				}
 			]
+		},
+		"editor.tokenColorCustomizations": {
+			"comments": "#636d83",
+			"functions": "#3fc56b",
+			"keywords": "#10b1fe",
+			"numbers": "#ff78f8",
+			"strings": "#f9c859",
+			"types": "#ff6480",
+			"variables": "#ff936a"
 		}
 	}
 }
